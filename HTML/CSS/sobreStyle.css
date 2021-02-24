@@ -22,6 +22,33 @@ a:hover {
 	
 }
 
+#teste{
+    animation: gradient 10s ease infinite;
+    background: linear-gradient(-45deg, #23a6d5, #f8ff69 ) no-repeat;
+    background-size: 300% 300%;
+    font-family: verdana;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 300px;
+    width: inherit;
+    font-size: 9em;
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0 50%;
+    }
+    
+    50%{
+        background-position: 100% 50%;
+    }
+    
+    100%{
+        background-position: 0 50%;
+    }
+}
 
 a:link, a:visited, a:active {
     color: #000000;
@@ -34,7 +61,7 @@ a:hover {
 	color:#000000; 
 	
 }
-/*
+
 h1{
     width: inherit;
     height: 50px;
@@ -48,11 +75,11 @@ h1{
     padding-left: 10px;
     
 
-}*/
+}
 
 h3{
     width: inherit;
-    font-family: verdana;
+    font-family: verdana, calibri;
     font-size: 1.1em;
     text-align: center;
     
@@ -66,9 +93,9 @@ p{
     min-height: 20px;
     height: auto;
     overflow: hidden;
-    font-family: verdana;
-    font-size: 1em;
-    line-height: 1.1;
+    font-family: verdana, calibri;
+    font-size: 1.1em;
+    line-height: 1.4;
 }
 
 .conteudo{
@@ -94,25 +121,29 @@ p{
 #logo{
     width: 150px;
     height: inherit;
-    background-color: crimson;
+    background-image: url(/IMAGENS/ianes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 /***************/
 /*Área do Menu*/
 /***************/
 #menu{
-    width: 1000px;
+    width: inherit;
     height: inherit;
     background-color: #1474b8;
-    float: left;
-    
+    float: left;  
     
 }
 
 #listaMenu{
     width: inherit;
     height: inherit;
-    margin-left: 75px;
+    margin-left: 260px;
     
 }
 
@@ -204,26 +235,6 @@ p{
 
 .itensMenu:hover > #subMenu{
     display: block;
-}
-
-/***********************/
-/*Área das rede Sociais*/
-/***********************/
-
-#redeSociais{
-    width: 150px;
-    height: inherit;
-    background-color: beige;
-    float: left;
-}
-
-.redesSociaisItem{
-    width: 47px;
-    height: inherit;
-    background-color: crimson;
-    float: left;
-    
-    margin-left: 3px;
 }
 
 /**************/
@@ -328,21 +339,21 @@ p{
 }
 
 #TextProposta{
-    width: 45%;
+    width: 300px;
     height: inherit;
     
     float: left;
-    margin-left: 50px;
+    margin-left: 170px;
     text-align: center;
     padding-top: 5px;
 }
 
 #TextMetodologiaDeEnsino{
-    width: 45%;
+    width: 300px;
     height: inherit;
   
     float: left;
-    margin-left: 20px;
+    margin-left: 365px;
     text-align: center;
     padding-top: 5px;
 }
@@ -561,7 +572,3 @@ margin-left: 55px;
     font-size: 1em;
     color: #ffffff;
 }
-
-
-
-

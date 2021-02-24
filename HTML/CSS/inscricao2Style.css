@@ -1,4 +1,3 @@
-
 /**********/
 /* RESET */
 /*********/
@@ -683,6 +682,12 @@ a:hover {
 /*******************************/
 /**** Possui deficiência ?  ****/
 /*******************************/
+
+#BoxCaixaDeficiencia{
+    width: inherit;
+    height: 30px;
+    padding-top: 20px;
+}
 
 #CaixaDeficiencia{
     width: inherit;

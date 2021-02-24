@@ -366,6 +366,19 @@ p{
 
 }
 
+#VideosSO{
+    width: inherit;
+    height: 250px;
+    background-color: #e8e297;
+
+}
+
+#VideosSOS{
+    width: inherit;
+    height: 250px;
+    background-color: #e8e297;
+}
+
 .Video{
     width: 350px;
     height: 230px;
@@ -381,6 +394,18 @@ p{
     height: 200px;
     background-color: #e8e297;
     
+}
+
+#DescricaoSO{
+    width: inherit;
+    height: 200px;
+    background-color: #e8e297;
+}
+
+#DescricaoSOS{
+    width: inherit;
+    height: 200px;
+    background-color: #e8e297;
 }
 
 .DescricaoVideo{
@@ -558,7 +583,3 @@ margin-left: 55px;
     font-size: 1em;
     color: #ffffff;
 }
-
-
-
-
