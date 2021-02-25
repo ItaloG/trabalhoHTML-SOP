@@ -3,7 +3,6 @@
 /*********/
 
 
-
 *{
     margin: 0px;
     padding: 0px;
@@ -22,70 +21,49 @@ a:hover {
 	
 }
 
-#teste{
-    animation: gradient 10s ease infinite;
-    background: linear-gradient(-45deg, #23a6d5, #f8ff69 ) no-repeat;
-    background-size: 300% 300%;
-    font-family: verdana;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    height: 300px;
-    width: inherit;
-    font-size: 9em;
-}
-
-@keyframes gradient{
-    0%{
-        background-position: 0 50%;
-    }
-    
-    50%{
-        background-position: 100% 50%;
-    }
-    
-    100%{
-        background-position: 0 50%;
-    }
-}
-
-a:link, a:visited, a:active {
-    color: #000000;
-	text-decoration:none;
-   
-}
-
-a:hover {
-	text-decoration: none; 
-	color:#000000; 
-	
-}
-
 h1{
     width: inherit;
-    height: 50px;
-    background-color: #51adbd;
+    height: 100px;
+    
     font-family: verdana;
-    font-size: 1.5em;
+    font-size: 2.9em;
     color: #000000;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding-top: 10px;
-    padding-left: 10px;
     
-
+    padding-top: 40px;
+    padding-left: 100px;
 }
 
 h3{
     width: inherit;
-    font-family: verdana, calibri;
-    font-size: 1.1em;
-    text-align: center;
-    
+    font-family: verdana;
+    font-size: 2em;
+    text-transform: uppercase;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 100px;
+    margin-top: 100px;
 
+}
+
+h4{
+    width: inherit;
+    font-family: verdana;
+    font-size: 1.7em;
+    text-transform: uppercase;
+   
+    padding-left: 70px;
+    margin-top: 20px;
+}
+
+h5{
+    width: inherit;
+    font-family: verdana;
+    font-size: 1.3em;
+    text-transform: uppercase;
+   
+    padding-left: 70px;
+    margin-top: 40px; 
 }
 
 p{
@@ -247,203 +225,138 @@ p{
 }
 
 
-/**************************************/
-/***** Imagem de fundo com texto *****/
-/*************************************/
 
-/* OBS: Arrumar essa parte,falta coisa */
+/*******************************/
+/* Área das informções do curso*/
+/*******************************/
 
-#ImagemDeFundo{
+#containerInformacoes{
     width: inherit;
-    height: 350px;;
-    background-color: blueviolet;
-   
+    height: 1300px;
+    
+    background-color: #e8e297;
+    
+}
+
+#resumo{
+    width: 600px;
+    height: 80px;
+    
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 100px;
    
 }
 
-#TextoDeFundo{
+#requisitos{
+    width: 600px;
+    height: 220px;
+    
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#listaRequisitos{
+    list-style: none;
+    width: inherit;
+    min-height: 20px;
+    height: auto;
+    overflow: hidden;
+    font-family: verdana;
+    font-size: 1em;
+}
+
+.itens{
+    margin-top: 10px;
+}
+
+#conteudos{
+    width: 600px;
+    height: 220px;
+    
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#listaConteudo{
+    list-style: none;
+    width: inherit;
+    min-height: 20px;
+    height: auto;
+    overflow: hidden;
+    font-family: verdana;
+    font-size: 1em;
+}
+
+#containerFichaTecnica{
+    width: 100px;
+    height: 100px;
+   
+    
+    float: left;
+}
+
+#caixaEsquerda{
+    width: 670px;
+    height: inherit;
+    float: left;
+}
+#caixaDireita{
+    width: 490px;
+    height: 650px;
+    float: left;
+    border: #000000 solid 3px;
+    
+    margin-left: 55px;
+    margin-top: 150px;
+}
+
+#fichaTecnica{
+    width: inherit;
+    font-family: verdana;
+    font-size: 1.7em;
+    text-transform: uppercase;
+
+    padding-left: 70px;
+    margin-top: 20px;
+    
+}
+
+#textoCargaHoraria{
+    width: 380px;
+    height: 50px;
+    padding-left: 70px;
+    margin-top: 50px;
+  
+}
+
+#textoContatos{
+    width: 380px;
+    height: 100px;
+    
+    padding-left: 70px; 
+    padding-top: 10px;
+    font-size: 1.2em;
+    
+    font-family: verdana;
+    font-size: 1em;
+}
+
+#caixaInscricao{
     width: 400px;
     height: 100px;
-    background-color: chartreuse;
-    margin-left: 450px;
-    margin-top: 100px;
-    float: left;
-}
-
-#ConfigText{
-    font-size: 2em;
-    text-align: center;
-}
-
-/************************/
-/***** Quem Somos? *****/
-/***********************/
-
-#TituloQuemSomos{
-    width: inherit;
-    height: 60px;
-    background-color: #51adbd;
-    text-align: center;
-    padding-top: 5px;
-   
-}
-
-#TextQuemSomos{
-    width:inherit;
-    height: 150px;
-    background-color: #e8e297;
-    text-align: center;
-    padding-top: 5px;
     
-}
-
-/******************************************/
-/***** Propostas e metodos de ensino *****/
-/*****************************************/
-
-#CaixaTitulos{
-    width: inherit;
-    height: 60px;
-    background-color: #e8e297;
-   
-}
-
-#TituloProposta{
-    width: 50%;
-    height: 60px;
-    background-color: #51adbd;
-    text-align: center;
-    padding-top: 5px;
-    float: left;
+    border: #000000 solid 2px;
     
-}
-
-#TituloMetodosDeEnsino{
-     width: 50%;
-    height: 60px;
-    background-color: #51adbd;
     text-align: center;
-    padding-top: 5px;
-    float: left;
-   
-}
-
-
-/* Textos - Propostas e Medotos de Ensino */
-
-#CaixaText{
-    width: inherit;
-    height: 300px;
-    background-color: #e8e297;
-    
-}
-
-#TextProposta{
-    width: 300px;
-    height: inherit;
-    
-    float: left;
-    margin-left: 170px;
-    text-align: center;
-    padding-top: 5px;
-}
-
-#TextMetodologiaDeEnsino{
-    width: 300px;
-    height: inherit;
-  
-    float: left;
-    margin-left: 365px;
-    text-align: center;
-    padding-top: 5px;
-}
-
-/********************************************/
-/***** Nossa Missão, Visão, Conquistas *****/
-/*******************************************/
-
-#CaixaTitulosMissao{
-    width: inherit;
-    height: 60px;
-    background-color: #51adbd;
-    
-}
-
-.Titulos{
-    width: 300px;
-    height: inherit;
-    background-color: #51adbd;
-    float: left;
-    text-align: center;
-    padding-top: 10px;
-    margin-left: 110px;
-}
-
-#CaixasTextosMissao{
-    width: inherit;
-    height: 335px;
-    background-color: #e8e297;
-    
-}
-
-
-#textosMissao{
-    width: 350px;
-    height: 300px;
-   
-    margin-top: 5px;
-    float: left;
-    margin-left: 80px;
-    text-align: center;
-}
-
-#textosVisao{
-    width: 350px;
-    height: 300px;
-   
-    margin-top: 5px;
-    float: left;
-    margin-left: 70px;
-    text-align: center;
-}
-
-#Conquistas{
-    width: 350px;
-    height: 300px;
-   
-    float: left;
-    margin-left: 60px;
-    margin-top: 5px;
-}
-
-#Listas{
-    width: inherit;
-    height: inherit;
-    margin-left: 30px;
-    font-size: 20px;
+    font-size: 3.2em;
     font-family: verdana;
-}
-
-/*************************************/
-/*****   Comece hoje mesmo!!    *****/
-/************************************/
-
-#HojeMesmo{
-    width: inherit;
-    height: 50px;
-    background-color: #1475b8;
     
-    text-align: center;
     padding-top: 15px;
+    margin-left: 40px;
+    margin-top: 60px;
 }
 
-#Compromisso{
-   width: inherit;
-    height: 100px;
-    background-color:#51adbd ;
-    text-align: center;
-    padding-top: 40px;
-}
 
 /****************************/
 /* Configurações do Rodapé */
@@ -609,3 +522,4 @@ p{
     
     font-size: 1em;
     color: #ffffff;
+}

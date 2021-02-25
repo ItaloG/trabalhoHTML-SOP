@@ -53,9 +53,9 @@ p{
     min-height: 20px;
     height: auto;
     overflow: hidden;
-    font-family: verdana;
-    font-size: 1em;
-    line-height: 1.3;
+    font-family: verdana, calibri;
+    font-size: 1.1em;
+    line-height: 1.4;
 }
 
 .conteudo{
@@ -81,25 +81,29 @@ p{
 #logo{
     width: 150px;
     height: inherit;
-    background-color: crimson;
+    background-image: url(/IMAGENS/ianes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 /***************/
 /*Área do Menu*/
 /***************/
 #menu{
-    width: 1000px;
+    width: inherit;
     height: inherit;
     background-color: #1474b8;
-    float: left;
-    
+    float: left;  
     
 }
 
 #listaMenu{
     width: inherit;
     height: inherit;
-    margin-left: 75px;
+    margin-left: 260px;
     
 }
 
@@ -115,9 +119,10 @@ p{
     float: left;
     padding-top: 13px;
     margin-left:15px;;
-
+    color: #000000;
 
 }
+
 
 .itensMenu:hover{
     background-color: #ffffff;
@@ -192,26 +197,6 @@ p{
     display: block;
 }
 
-/***********************/
-/*Área das rede Sociais*/
-/***********************/
-
-#redeSociais{
-    width: 150px;
-    height: inherit;
-    background-color: beige;
-    float: left;
-}
-
-.redesSociaisItem{
-    width: 47px;
-    height: inherit;
-    background-color: crimson;
-    float: left;
-    
-    margin-left: 3px;
-}
-
 /**************/
 /*Espaço menu*/
 /************/
@@ -221,22 +206,23 @@ p{
     height: 50px;
 }
 
+
 /***********************/
 /*Área processo de Seleção*/
 /***********************/
 
 #containerNossoPreoceSele{
     width: inherit;
-    height: 400px;
+    height: 290px;
     background-color: #e8e297;
 }
 
 #textoProcessoSele{
     width: 800px;
-    height: 230px;
+    height: auto;
   
     
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -247,13 +233,13 @@ p{
 
 #containerNossosProf {
     width: inherit;
-    height: 1000px;;
+    height: 540px;
     background-color: #e8e297;
 }
 
 #galeriaNossosProf{
     width: 990px;
-    height: 925px;
+    height: 490px;;
 
     
     margin-left: auto;
@@ -271,10 +257,24 @@ p{
     float: left;
 }
 
-.imagemPerfiu{
+#imagemPerfiu1{
     width: inherit;
     height: 290px;
-    background-color: crimson;
+    background-image: url(/IMAGENS/professor1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border-radius: 300px;
+}
+
+#imagemPerfiu2{
+    width: inherit;
+    height: 290px;
+    background-image: url(/IMAGENS/professor2.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
     border-radius: 300px;
 }
@@ -341,20 +341,54 @@ p{
     text-align: center; 
     font-size: 1.2em;
     color: #ffffff;
+    
+    margin-left: 65px;
 }
  
-.FotoRedeSocial{
-    width:30px;
-    height:30px;
-    background-color: crimson;    
+#FotoRedeSocial1{
+    width:70px;
+    height:70px;
+    background-image: url(/IMAGENS/face.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
     float:left;
     margin-left: 18px;
     margin-top: 10px;
+}
 
+#FotoRedeSocial2{
+    width:70px;
+    height:70px;
+    background-image: url(/IMAGENS/twitter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    float:left;
+    margin-left: 18px;
+    margin-top: 10px;
+    
+}
+
+#FotoRedeSocial3{
+    width:70px;
+    height:70px;
+    background-image: url(/IMAGENS/insta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    float:left;
+    margin-left: 18px;
+    margin-top: 10px;
 }
  
 #centralizacao{
-    margin-left: 125px;
+    margin-left: 80px;
+}
+
+.seguir{
+    margin-top: 70px;
+    margin-left: 5px;
 }
  
 /****************************/
@@ -406,20 +440,23 @@ p{
 #LogoRodape{
     width: 320px;
     height: 120px;
-    background-color: crimson;    
+    background-image: url(/IMAGENS/ianes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
     margin-top: 30px;
     margin-left: 55px;
 }
  
 #Reservado{
-    width: 320px;
+    width: inherit;
     height: 20px;
   
     margin-top: 35px;
     margin-left: 55px;
     
      font-family: verdana;
-    text-align: center; 
+    
     font-size: 1em;
     color: #ffffff;
 }
