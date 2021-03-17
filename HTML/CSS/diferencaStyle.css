@@ -58,20 +58,17 @@ p{
     line-height: 1.4;
 }
 
-.conteudo{
-    width: 1300px;
-    height: inherit;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
+
 
 #containerMenu{
-    width: inherit;
+    width: 3500px;rit;
     height: 50px;
   
     z-index: 999;
     position: fixed;
+
+    background-color: #1474b8;
+    float: left;
    
 }
 /***************/
@@ -92,13 +89,7 @@ p{
 /***************/
 /*Área do Menu*/
 /***************/
-#menu{
-    width: inherit;
-    height: inherit;
-    background-color: #1474b8;
-    float: left;  
-    
-}
+
 
 #listaMenu{
     width: inherit;

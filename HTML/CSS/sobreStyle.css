@@ -19,48 +19,8 @@ a:link, a:visited, a:active {
 a:hover {
 	text-decoration: none; 
 	color:#000000; 
-	
 }
 
-#teste{
-    animation: gradient 10s ease infinite;
-    background: linear-gradient(-45deg, #23a6d5, #f8ff69 ) no-repeat;
-    background-size: 300% 300%;
-    font-family: verdana;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    height: 300px;
-    width: inherit;
-    font-size: 9em;
-}
-
-@keyframes gradient{
-    0%{
-        background-position: 0 50%;
-    }
-    
-    50%{
-        background-position: 100% 50%;
-    }
-    
-    100%{
-        background-position: 0 50%;
-    }
-}
-
-a:link, a:visited, a:active {
-    color: #000000;
-	text-decoration:none;
-   
-}
-
-a:hover {
-	text-decoration: none; 
-	color:#000000; 
-	
-}
 
 h1{
     width: inherit;
@@ -71,10 +31,9 @@ h1{
     color: #000000;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 10px;
     
-
 }
 
 h3{
@@ -98,20 +57,17 @@ p{
     line-height: 1.4;
 }
 
-.conteudo{
-    width: 1300px;
-    height: inherit;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
+
 
 #containerMenu{
-    width: inherit;
+    width: 3500px;rit;
     height: 50px;
   
     z-index: 999;
     position: fixed;
+
+    background-color: #1474b8;
+    float: left;
    
 }
 /***************/
@@ -121,7 +77,7 @@ p{
 #logo{
     width: 150px;
     height: inherit;
-    background-image: url(/IMAGENS/ianes.png);
+    background-image: url(../IMAGENS/ianes.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,14 +87,7 @@ p{
 }
 /***************/
 /*Área do Menu*/
-/***************/
-#menu{
-    width: inherit;
-    height: inherit;
-    background-color: #1474b8;
-    float: left;  
-    
-}
+
 
 #listaMenu{
     width: inherit;
@@ -255,19 +204,22 @@ p{
 
 #ImagemDeFundo{
     width: inherit;
-    height: 350px;;
-    background-color: blueviolet;
-   
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../IMAGENS/ti.jpg);
    
 }
 
 #TextoDeFundo{
     width: 400px;
     height: 100px;
-    background-color: chartreuse;
+    background-color:RGBA(0,0,0,0.7);
+    color: #ffffff;
     margin-left: 450px;
     margin-top: 100px;
     float: left;
+    padding-top: 10px;
 }
 
 #ConfigText{
@@ -284,8 +236,14 @@ p{
     height: 60px;
     background-color: #51adbd;
     text-align: center;
-    padding-top: 5px;
-   
+    
+   font-family: verdana; 
+    font-size: 1.0em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 #TextQuemSomos{
@@ -294,8 +252,10 @@ p{
     background-color: #e8e297;
     text-align: center;
     padding-top: 5px;
-    
+     font-family: verdana, calibri;
 }
+
+
 
 /******************************************/
 /***** Propostas e metodos de ensino *****/
@@ -313,8 +273,15 @@ p{
     height: 60px;
     background-color: #51adbd;
     text-align: center;
-    padding-top: 5px;
+   
     float: left;
+     font-family: verdana; 
+    font-size: 0.8em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
     
 }
 
@@ -323,8 +290,17 @@ p{
     height: 60px;
     background-color: #51adbd;
     text-align: center;
-    padding-top: 5px;
+    
     float: left;
+    
+     font-family: verdana; 
+    font-size: 0.8em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
    
 }
 
@@ -345,7 +321,8 @@ p{
     float: left;
     margin-left: 170px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 50px;
+    font-family: verdana, calibri;
 }
 
 #TextMetodologiaDeEnsino{
@@ -355,7 +332,8 @@ p{
     float: left;
     margin-left: 365px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 50px;
+    font-family: verdana, calibri;
 }
 
 /********************************************/
@@ -367,6 +345,14 @@ p{
     height: 60px;
     background-color: #51adbd;
     
+     font-family: verdana; 
+    font-size: 0.8em;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
 }
 
 .Titulos{
@@ -377,6 +363,9 @@ p{
     text-align: center;
     padding-top: 10px;
     margin-left: 110px;
+    font-family: verdana;
+    font-size: 1.0em;
+    margin-top: -10px;
 }
 
 #CaixasTextosMissao{
@@ -389,22 +378,24 @@ p{
 
 #textosMissao{
     width: 350px;
-    height: 300px;
+    height: 200px;
    
-    margin-top: 5px;
+    margin-top: 100px;
     float: left;
     margin-left: 80px;
     text-align: center;
+    font-family: verdana, calibri;
 }
 
 #textosVisao{
     width: 350px;
-    height: 300px;
+    height: 200px;
    
-    margin-top: 5px;
+    margin-top: 100px;
     float: left;
     margin-left: 70px;
     text-align: center;
+    font-family: verdana, calibri;
 }
 
 #Conquistas{
@@ -414,6 +405,7 @@ p{
     float: left;
     margin-left: 60px;
     margin-top: 5px;
+    font-family: verdana, calibri;
 }
 
 #Listas{
@@ -445,10 +437,10 @@ p{
     padding-top: 40px;
 }
 
-/****************************/
-/* Configurações do Rodapé */
-/***************************/
- 
+/********************/
+/***** Rodapé  *****/
+/******************/
+
 #CaixaPrincipalRodape{
     width:inherit;
     height: 300px;
@@ -498,7 +490,7 @@ p{
 #FotoRedeSocial1{
     width:70px;
     height:70px;
-    background-image: url(/IMAGENS/face.png);
+    background-image: url(../IMAGENS/face.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -510,7 +502,7 @@ p{
 #FotoRedeSocial2{
     width:70px;
     height:70px;
-    background-image: url(/IMAGENS/twitter.png);
+    background-image: url(../IMAGENS/twitter.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -523,7 +515,7 @@ p{
 #FotoRedeSocial3{
     width:70px;
     height:70px;
-    background-image: url(/IMAGENS/insta.png);
+    background-image: url(../IMAGENS/insta.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -590,7 +582,7 @@ p{
 #LogoRodape{
     width: 320px;
     height: 120px;
-    background-image: url(/IMAGENS/ianes.png);
+    background-image: url(../IMAGENS/ianes.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
@@ -609,3 +601,4 @@ p{
     
     font-size: 1em;
     color: #ffffff;
+}

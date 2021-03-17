@@ -47,7 +47,7 @@ h3{
     width: inherit;
     font-family: verdana;
     font-size: 1.1em;
-    text-align: center;
+   
     
     padding-top: 10px;
     padding-bottom: 10px;
@@ -64,20 +64,15 @@ p{
     line-height: 1.1;
 }
 
-.conteudo{
-    width: 1300px;
-    height: inherit;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
 #containerMenu{
-    width: inherit;
+    width: 3500px;rit;
     height: 50px;
   
     z-index: 999;
     position: fixed;
+
+    background-color: #1474b8;
+    float: left;
    
 }
 /***************/
@@ -87,25 +82,24 @@ p{
 #logo{
     width: 150px;
     height: inherit;
-    background-color: crimson;
+    background-image: url(../IMAGENS/ianes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+   
 }
 /***************/
 /*Área do Menu*/
 /***************/
-#menu{
-    width: 1000px;
-    height: inherit;
-    background-color: #1474b8;
-    float: left;
-    
-    
-}
+
 
 #listaMenu{
     width: inherit;
     height: inherit;
-    margin-left: 75px;
+    margin-left: 260px;
     
 }
 
@@ -202,14 +196,14 @@ p{
 /***********************/
 /*Área das rede Sociais*/
 /***********************/
-
+/*
 #redeSociais{
     width: 150px;
     height: inherit;
     background-color: beige;
     float: left;
 }
-
+/*
 .redesSociaisItem{
     width: 47px;
     height: inherit;
@@ -218,7 +212,7 @@ p{
     
     margin-left: 3px;
 }
-
+*/
 /**************/
 /*Espaço menu*/
 /************/
@@ -286,6 +280,37 @@ p{
     margin-right: auto;
   
 }
+
+#IconEmail{
+    width: 100px;
+    height: 100px;
+    background-image: url(../IMAGENS/IconEmail.png);
+     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#IconTelefone{
+    width: 100px;
+    height: 100px;
+    background-image: url(../IMAGENS/TelefoneIcon.png);
+     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#IconContato{
+    width: 100px;
+    height: 100px;
+    background-image: url(../IMAGENS/whatsapp%20logo2.png);
+     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
 
 .Titulo{
     width:inherit;
@@ -358,96 +383,136 @@ p{
 /***** Rodapé  *****/
 /******************/
 
+
+/****************************/
+/* Configurações do Rodapé */
+/***************************/
+ 
 #CaixaPrincipalRodape{
     width:inherit;
     height: 300px;
-    background-color: darkgoldenrod;
-   
-}
 
+}
+ 
 #CaixaSecundariaRodape{
     width:inherit;
     height:inherit;
-    background-color: #1475b8;
-    
+    background-color: #1474b8;
 }
-
+ 
 .CaixasRodape{
     width: 431px;
     height:inherit;
-    background-color: #1475b8; 
+    background-color: #1474b8; 
     float: right;
     margin-bottom: 10px;
 }
-
+ 
 .linha{
      height: 200px;
      border-right: 3px solid black;
      float: right;
      margin-top: 50px;
-    
-}
 
+}
+ 
 /****************************/
 /****** Redes Sociais ******/
 /***************************/
-
+ 
 #RedesSociais{
     width:160px;
     height:25px;
-   
+
     margin-top: 60px;
     
     font-family: verdana;
-    text-align: center;
+    text-align: center; 
     font-size: 1.2em;
     color: #ffffff;
+    
+    margin-left: 65px;
+}
+ 
+#FotoRedeSocial1{
+    width:70px;
+    height:70px;
+    background-image: url(../IMAGENS/face.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    float:left;
+    margin-left: 18px;
+    margin-top: 10px;
 }
 
-.FotoRedeSocial{
-    width:30px;
-    height:30px;
-    background-color: crimson;
+#FotoRedeSocial2{
+    width:70px;
+    height:70px;
+    background-image: url(../IMAGENS/twitter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
     float:left;
     margin-left: 18px;
     margin-top: 10px;
     
 }
 
+#FotoRedeSocial3{
+    width:70px;
+    height:70px;
+    background-image: url(../IMAGENS/insta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    float:left;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+ 
 #centralizacao{
-    margin-left: 125px;
+    margin-left: 80px;
 }
 
+.seguir{
+    margin-top: 70px;
+    margin-left: 5px;
+}
+ 
 /****************************/
 /******** Contatos **********/
 /****************************/
 .Contatos{
     width:250px;
     height: 25px;
-   font-size: 1em;
+   
     margin-top: 28px;
     margin-left: 100px;
-    text-align: center;
-    font-family: verdana;
+    
+  font-family: verdana;
+    text-align: center; 
+    font-size: 1em;
     color: #ffffff;
 }
-
+ 
 /*******************************/
 /* Nome, logo, e alguns textos */
 /******************************/
-
+ 
 #NomeRodape{
     width: 200px;
     height: 25px;
-   
+
     margin-top: 10px;
     margin-left: 120px;
-    font-family: verdana;
-    text-align: center;
+    
+     font-family: verdana;
+    text-align: center; 
     font-size: 1.4em;
     color: #ffffff;
 }
-
+ 
 #textoComico{
     width: 300px;
     height: 20px;
@@ -455,29 +520,32 @@ p{
     margin-top: 20px;
     margin-left: 65px;
     
-    font-family: verdana;
-    text-align: center;
+     font-family: verdana;
+    text-align: center; 
     font-size: 1em;
-    color:#ffffff;
+    color: #ffffff;
 }
-
+ 
 #LogoRodape{
-width: 320px;
-height: 120px;
-background-color: crimson;
-margin-top: 30px;
-margin-left: 55px;
-}
-
-#Reservado{
     width: 320px;
+    height: 120px;
+    background-image: url(../IMAGENS/ianes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    margin-top: 30px;
+    margin-left: 55px;
+}
+ 
+#Reservado{
+    width: inherit;
     height: 20px;
-   
+  
     margin-top: 35px;
     margin-left: 55px;
     
-    font-family: verdana;
-    text-align: center;
+     font-family: verdana;
+    
     font-size: 1em;
     color: #ffffff;
 }

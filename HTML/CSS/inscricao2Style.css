@@ -44,16 +44,25 @@ a:hover {
 #logo{
     width: 250px;
     height: 80px ;
-    background-color: crimson;
+   
     float: left;
     margin-top: 10px;
     margin-left: 50px;
 }
 
+#logoIanes{
+    width: inherit;
+    height: inherit;
+    background-image: url(../IMAGENS/ianes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 #nome{
     width: 250px;
     height: 70px;
-    background-color: crimson;
+    
     float: left;
     margin-top: 10px;
     margin-left: 700px;
